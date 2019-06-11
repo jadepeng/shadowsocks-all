@@ -9,7 +9,7 @@
 安装wget
 ```
 # centos
-yum -y install wget
+yum -y install wgetps
 
 # Ubuntu
 apt-get -y install wget
@@ -17,7 +17,7 @@ apt-get -y install wget
 
 安装服务
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/quniu/shadowsocks-all/master/install/shadowsocks-all.sh
+wget --no-check-certificate https://raw.githubusercontent.com/jadepeng/shadowsocks-all/master/install/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 ```
